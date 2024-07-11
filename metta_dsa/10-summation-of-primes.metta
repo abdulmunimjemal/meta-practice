@@ -11,7 +11,6 @@
     )
 )
 
-
 (= (primes_below $x) 
     (if (> $x 0)
         ( if (is_prime $x -2)
